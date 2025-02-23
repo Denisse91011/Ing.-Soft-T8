@@ -34,3 +34,7 @@ test('Debe retornar "XC" para 90', () => {
   expect(generar_romanos(90)).toBe('XC');
 });
 
+test('Debe retornar "C" para 100', () => {
+  expect(generar_romanos(100)).toBe('C');
+});
+
