@@ -50,3 +50,7 @@ test('Debe retornar "CM" para 900', () => {
   expect(generar_romanos(900)).toBe('CM');
 });
 
+test('Debe retornar "M" para 1000', () => {
+  expect(generar_romanos(1000)).toBe('M');
+});
+
