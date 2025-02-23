@@ -21,3 +21,7 @@ test('Debe retornar "IX" para 9', () => {
 test('Debe retornar "X" para 10', () => {
   expect(generar_romanos(10)).toBe('X');
 });
+
+test('Debe retornar "XL" para 40', () => {
+  expect(generar_romanos(40)).toBe('XL');
+});
