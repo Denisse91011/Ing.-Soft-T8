@@ -1,5 +1,6 @@
 function generar_romanos(num){
   const romanNumerals = [
+    { value: 50, numeral: 'L'},
     { value: 40, numeral: 'XL'},
     { value: 10, numeral: 'X'},
     { value: 9, numeral: 'IX'},
