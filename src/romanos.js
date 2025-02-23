@@ -1,6 +1,9 @@
 function generar_romanos(num){
   const romanNumerals = [
-    { value: 1, numeral: 'I' }
+    { value: 4, numeral: 'IV'},
+    { value: 1, numeral: 'I' },
+    
+    
   ]
 
   let result = '';
