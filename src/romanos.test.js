@@ -42,3 +42,7 @@ test('Debe retornar "CD" para 400', () => {
   expect(generar_romanos(400)).toBe('CD');
 });
 
+test('Debe retornar "D" para 500', () => {
+  expect(generar_romanos(500)).toBe('D');
+});
+
