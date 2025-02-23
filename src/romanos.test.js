@@ -9,3 +9,7 @@ describe('generar_romanos', () => {
 test('Debe retornar "IV" para 4', () => {
   expect(generar_romanos(4)).toBe('IV');
 });
+
+test('Debe retornar "v" para 5', () => {
+  expect(generar_romanos(5)).toBe('V');
+});
